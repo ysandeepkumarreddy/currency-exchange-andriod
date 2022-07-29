@@ -25,3 +25,36 @@ The project titled “Currency Exchange” aims at developing an android based a
 We have used relative layout for the Edit text and send button. When the user selects that exchange rated between the two currencies i.e., when user presses result button the currency rate will be displayed
 
 ## XML Desgin
+<p align="center">
+  <img src="https://github.com/ysandeepkumarreddy/currency-exchange-andriod/blob/main/imagesgit/Picture1.png" width="500" height="400" />
+  
+  for xml file [mainactivity.xml](https://github.com/ysandeepkumarreddy/currency-exchange-andriod/blob/main/app/src/main/res/layout/activity_main.xml)
+</p>
+
+## Implementation
+
+### Main Activity.java: 
+
+It displays the home page of expense tracker where we can set the limit of our expenses so that we can enter the daily expenses which will be recorded and this helps in keep track of our spendings. 
+
+### About Activity.java: 
+
+It displays the about page in the tab we can see introduction and contact details where we can also check the version of app and value proposition and official mailed where we can contact them. 
+
+[mainactivity.java](../blob/main/app/src/main/java/com/example/firstapplication/MainActivity.java)
+
+## Testing
+
+| Case ID     | Case Name     | Description | Status |
+| ------------- |:-------------:| -----|-----:|
+| 1 | Global support     | Different type of currency will be available from all around the world in different rates and prices are updated at real time market | `PASS` |
+| 2 | Result     | Currency will be displayed as soon as the result button is clicked |   `PASS` |
+| 3 | Different Currency | User will be able see the exchanged of currency in app available within API connected service |   `PASS` |
+| 4 | Online Data | Real-time calculations of currency is generated and displayed in result |   `PASS` |
+| 5 | Sharing | User will be able to share currency exchange values to other users. |   `PASS` |
+
+## Results
+
+<p align="center">
+  <img src="https://github.com/ysandeepkumarreddy/currency-exchange-andriod/blob/main/imagesgit/image%20(1).png"  height="500" />
+  <img src="https://github.com/ysandeepkumarreddy/currency-exchange-andriod/blob/main/imagesgit/image%20(2).png"  height="500" />
